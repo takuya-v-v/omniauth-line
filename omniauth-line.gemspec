@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = OmniAuth::Line::VERSION
   s.authors     = ["kazasiki"]
   s.email       = ["kazasiki@gmail.com"]
-  s.homepage    = "https://github.com/kazasiki/omniauth-line"
+  s.homepage    = "https://github.com/takuya-v-v/omniauth-line"
   s.description = %q{OmniAuth strategy for Line}
   s.summary     = s.description
   s.license     = "MIT"
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'json', '~> 1.3'
-  s.add_dependency 'omniauth-oauth2', '~>1.3.1'
-  s.add_development_dependency 'bundler', '~> 1.0'
+  s.add_dependency 'omniauth-oauth2', '>= 1.7.0'
+  s.add_development_dependency 'bundler', '>= 1.0'
 
 end
